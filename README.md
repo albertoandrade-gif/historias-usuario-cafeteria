@@ -37,14 +37,28 @@ Café Express es una aplicación web para la gestión de pedidos en línea de un
 ## Estructura del repositorio
 
 ```text
-historias_usuario/
-| historia_1.md
-| historia_2.md
-| historia_3.md
-| historia_4.md
-| historia_5.md
-| historia_6.md
-| historia_7.md
-| historia_8.md
-| README.md
+historias-usuario-cafeteria-main/
+├── README.md
+├── historias_usuario/
+│   ├── historia_1.md
+│   ├── historia_2.md
+│   ├── historia_3.md
+│   ├── historia_4.md
+│   ├── historia_5.md
+│   ├── historia_6.md
+│   ├── historia_7.md
+│   └── historia_8.md
+└── test/
+    ├── casos_historia_1.md
+    ├── casos_historia_2.md
+    ├── casos_historia_3.md
+    ├── casos_historia_4.md
+    ├── casos_historia_5.md
+    ├── casos_historia_6.md
+    ├── casos_historia_7.md
+    └── casos_historia_8.md
 ```
+
+## Casos de prueba
+
+Cada archivo de la carpeta `test/` contiene dos casos asociados a su historia de usuario: un caso positivo para el flujo normal y un caso negativo para un flujo alterno. En total se documentan 16 casos de prueba, identificados desde `TC-001` hasta `TC-016`.
